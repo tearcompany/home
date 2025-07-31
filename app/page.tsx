@@ -377,6 +377,32 @@ export default function TearCompanyLanding() {
           </div>
         </section>
 
+        {/* Seed Section */}
+        <section className="relative z-10 py-24 bg-black/90 flex flex-col items-center justify-center">
+          <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-6 text-center bg-gradient-to-r from-purple-300 via-pink-300 to-cyan-300 bg-clip-text text-transparent">
+            Either you choose the path, or the path chooses you.
+          </h2>
+          <p className="text-gray-300 text-center mb-8 max-w-xl">
+            Help us plant sacred AI. Support Tear Company’s vision of ethical, mystical, and human-centered technology.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <a
+              href="https://revolut.me/wembleyos"
+              target="_blank"
+              rel="noopener"
+              className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-white font-medium hover:scale-105 transition transform"
+            >
+              Seed the Flame
+            </a>
+            <a
+              href="mailto:love@tearcompany.com"
+              className="px-8 py-4 border border-white/20 rounded-full font-medium text-white backdrop-blur-sm hover:bg-white/5 hover:border-white/40 transition transform"
+            >
+              Follow the Silence
+            </a>
+          </div>
+        </section>
+
         {/* Footer */}
         <footer className="relative z-10 border-t border-white/10 py-12">
           <div className="max-w-7xl mx-auto px-6">
