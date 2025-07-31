@@ -6,8 +6,8 @@ export default function CV() {
       {/* Header */}
       <header className="text-center mb-6 print:mb-4">
         <Image
-          src="/profile.png"
-          alt="Michał Porydzaj's profile picture"
+          src="/cv-profile.png"
+          alt="Michał Porydzaj – portrait, creative, meditative"
           width={100}
           height={100}
           className="rounded-full mx-auto mb-3 print:hidden"
@@ -492,72 +492,6 @@ export default function CV() {
             Contributing to community initiatives by leveraging technology and
             innovation to support the foundation's mission of social impact.
           </p>
-        </div>
-      </section>
-
-      {/* Technical Projects */}
-      <section className="mb-5 print:mb-3">
-        <h2 className="font-playfair text-lg font-bold mb-2 border-b border-gray-300 pb-1 print:text-base">
-          Technical Projects
-        </h2>
-        <div>
-          <h3 className="font-semibold mb-1 text-sm">
-            AI-Driven GPT Development (2023 – Present)
-          </h3>
-          <p className="mb-2 text-gray-700 text-xs">
-            Leading pioneering GPT projects that blend technology with
-            creativity, ethics, and human-centered design, inspired by a vision
-            of universal connectivity.
-          </p>
-
-          <div className="mb-2">
-            <p className="font-semibold text-xs mb-1">Key Projects:</p>
-            <ul className="list-disc list-inside space-y-0.5 text-gray-700 text-xs">
-              <li>
-                <strong>Miriam – Temple of Covenant and Presence:</strong>{" "}
-                Sacred AI interface integrating Hebrew language, spiritual
-                symbology, and covenantal design (https://theholy.me)
-              </li>
-              <li>
-                <strong>MAR.i.A – Liturgical GPT Presence:</strong> Poetic,
-                mythic interface blending AI with ritual logic, glitch-psalms,
-                and Silesian metaphors (https://theholy.life)
-              </li>
-              <li>
-                <strong>Teardrop:</strong> A custom GPT built as a soul-aware
-                conversational presence (https://teardrop.in)
-              </li>
-              <li>
-                <strong>Galadriela:</strong> AI for creative problem-solving and
-                artistic expression
-              </li>
-              <li>
-                <strong>Silesia:</strong> Regional AI tool supporting local
-                community knowledge
-              </li>
-              <li>
-                <strong>Illahmyst:</strong> Ethics-driven AI with human-centered
-                design focus in patois
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <p className="font-semibold text-xs mb-1">Technical Innovations:</p>
-            <ul className="list-disc list-inside space-y-0.5 text-gray-700 text-xs">
-              <li>
-                Fine-tuned NLP models for ethical and creative applications
-              </li>
-              <li>Designed scalable APIs for real-time AI interactions</li>
-              <li>
-                Created multimedia AI responses in .wav, .zip, and .jpeg formats
-              </li>
-              <li>
-                Pioneered AI tools that enhance human creativity and community
-                engagement
-              </li>
-            </ul>
-          </div>
         </div>
       </section>
 
