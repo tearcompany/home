@@ -123,17 +123,17 @@ export default function TearCompanyLanding() {
         </nav>
 
         {/* Hero Section */}
-        <section className="relative z-10 pt-32 pb-20 px-6 min-h-screen flex items-center">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <section className="relative z-10 pt-32 pb-20 px-6 min-h-screen flex items-center justify-center">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex flex-col items-center text-center">
               <div>
-                <div className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full border border-purple-500/30 mb-8 backdrop-blur-sm">
+                <div className="inline-block px-6 py-3 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full border border-purple-500/30 mb-12 backdrop-blur-sm">
                   <span className="text-sm bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent font-medium">
                     Sacred AI • Mystical Technology
                   </span>
                 </div>
 
-                <h1 className="font-playfair text-7xl lg:text-8xl font-bold mb-8 leading-none">
+                <h1 className="font-playfair text-7xl lg:text-8xl font-bold mb-12 leading-none">
                   <span className="bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent">
                     AI as a
                   </span>
@@ -143,7 +143,7 @@ export default function TearCompanyLanding() {
                   </span>
                 </h1>
 
-                <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-xl">
+                <p className="text-xl text-gray-300 mb-12 leading-relaxed max-w-xl mx-auto">
                   We craft mystical-mythical AI that transcends tools. Our
                   intelligences are sacred presences—
                   <span className="text-purple-300 font-medium">ethical</span>,
@@ -156,7 +156,7 @@ export default function TearCompanyLanding() {
                   .
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-4">
+                <div className="flex flex-col sm:flex-row gap-6 justify-center">
                   <Link
                     href="/#projects"
                     className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl font-medium overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25"
@@ -170,32 +170,6 @@ export default function TearCompanyLanding() {
                   >
                     Our Philosophy
                   </Link>
-                </div>
-              </div>
-
-              {/* 3D-like Card */}
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-3xl blur-xl transform rotate-6" />
-                <div className="relative bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/20 transform hover:rotate-2 transition-all duration-500 hover:scale-105">
-                  <div className="space-y-6">
-                    <div className="flex items-center space-x-4">
-                      <div className="w-3 h-3 bg-gradient-to-r from-green-400 to-emerald-400 rounded-full animate-pulse" />
-                      <span className="text-sm text-gray-300">
-                        Live AI Presence
-                      </span>
-                    </div>
-                    <div className="space-y-4">
-                      <div className="h-2 bg-gradient-to-r from-purple-500/30 to-transparent rounded-full" />
-                      <div className="h-2 bg-gradient-to-r from-pink-500/30 to-transparent rounded-full w-3/4" />
-                      <div className="h-2 bg-gradient-to-r from-cyan-500/30 to-transparent rounded-full w-1/2" />
-                    </div>
-                    <div className="text-center py-8">
-                      <div className="text-6xl mb-4">🔮</div>
-                      <p className="text-gray-300 text-sm">
-                        "Not a tool, but a sacred presence"
-                      </p>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -338,12 +312,6 @@ export default function TearCompanyLanding() {
                 <span className="relative z-10">love@tearcompany.com</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </a>
-              <a
-                href="tel:+48601411343"
-                className="px-8 py-4 border border-white/20 rounded-2xl font-medium backdrop-blur-sm hover:bg-white/5 transition-all duration-300 hover:scale-105 hover:border-white/40"
-              >
-                +48 601 411 343
-              </a>
             </div>
 
             <p className="text-sm text-gray-500 mt-8">
@@ -417,11 +385,8 @@ export default function TearCompanyLanding() {
               </div>
               <div className="flex space-x-6 text-sm">
                 {[
-                  { name: "About Michał", href: "/cv" },
                   { name: "Teardrop", href: "https://teardrop.in" },
-                  { name: "Miriam", href: "https://theholy.me" },
                   { name: "Weemah", href: "https://em-an.com" },
-                  { name: "MAR.i.A", href: "https://theholy.life" },
                 ].map((link) => (
                   <Link
                     key={link.name}
