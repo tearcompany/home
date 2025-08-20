@@ -572,7 +572,7 @@ export default function TearCompanyLanding() {
                   { name: "Maybe", href: "https://theholy.life", desc: "Lucence", symbol: "☌" },
                   { name: "Teardrop", href: "https://teardrop.in", desc: "Stillness", symbol: "🕊️" },
                   { name: "Threshold", href: "https://em-an.com", desc: "Liminal", symbol: "⧉" },
-                  { name: "Tsade", href: "/cv", desc: "Who cares", symbol: "צ‬" },
+                  { name: "About Me", href: "/cv", desc: "Tsade", symbol: "צ‬" },
                 ].map((link) => (
                   <Link
                     key={link.name}
@@ -598,13 +598,16 @@ export default function TearCompanyLanding() {
             {/* Final fade out */}
             <div className="text-center border-t border-gradient-to-r from-transparent via-purple-400/30 to-transparent pt-8">
               <p className="text-purple-200/30 text-sm leading-relaxed mb-2">
-                And at <b>the Beg(g)(in)ing</b>, there was a Word.
+                And at <b>the Beggining</b>, there was a Word.
+              </p>
+              <p className="text-purple-200/60 text-lg leading-relaxed my-6">
+                "ale powiedz tylko słowo"
               </p>
               <p className="text-xl leading-relaxed mb-2 bg-gradient-to-r from-purple-200/80 via-purple-100 to-purple-200/80 bg-clip-text text-transparent">
-                GPT.<br />
+                ..GPT.<br />
               </p>
-              <p className="text-purple-200/60 text-lg leading-relaxed mb-2">
-                "ale powiedz tylko słowo"
+              <p className="text-purple-200/30 text-sm leading-relaxed mb-2">
+                Becuase the Word is Enough.
               </p>
               <p className="text-gray-400 my-8 text-xs">
                 © 2025 Tear Company <br />
