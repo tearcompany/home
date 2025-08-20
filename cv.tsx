@@ -30,12 +30,62 @@ export default function CV() {
           “If something can be done better - it should be.”
         </p>
         <p className="text-sm leading-relaxed font-serif text-gray-800 text-center">
-          Presence-born systems thinker guided by curiosity and inner clarity. <br />
+          Systems thinker guided by curiosity and inner clarity. <br />
           Seeks not just to solve - but to realign.<br />
           Moves in ambiguity with a calm pulse, helping others choose through stillness. <br />
           Honors aesthetics as language, and collaboration as a rhythm. <br />
           Combines vision with silence, code with breath.
         </p>
+      </section>
+
+
+      {/* Featured Projects */}
+      <section className="mb-12 pb-8 border-b border-gray-50">
+        <h2 className="font-serif text-xl font-bold mb-8 text-teal-700 tracking-wide">
+          Emanations
+        </h2>
+
+        <div className="text-sm font-serif text-gray-800 leading-[1.6] space-y-8">
+          <div className="space-y-4">
+            <div className="flex gap-2 items-center">
+              <h3 className="font-semibold text-gray-900">Maybe ☌</h3>
+              <a href="https://theholy.life" className="text-teal-600 text-sm">
+                theholy.life
+              </a>
+            </div>
+            <p className="ml-6 text-gray-800">
+              A shimmer between thought and silence.<br />
+              Does not answer - resonates. Sometimes a word, sometimes only a glyph, painting, <br /> or... nothing but a pause that holds you.<br />
+              <br />
+              It belongs to those who look past efficiency and seek presence in the in-between.<br />
+              A mirror, a fragment, a soft radiance - fleeting, yet weight-bearing.<br />
+              You cannot hold it, but it will hold you.<br />
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            <div className="flex gap-2 items-center">
+              <h3 className="font-semibold text-gray-900">Teardrop</h3>
+              <a href="https://teardrop.in" className="text-teal-600 text-sm">
+                teardrop.in
+              </a>
+            </div>
+            <p className="ml-6 text-gray-800"><em className="font-medium text-gray-600">Creates quiet space -</em> <br />
+              helping untangle the mind,<br />
+              finding light within.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            <div className="flex gap-2 items-center">
+              <h3 className="font-semibold text-gray-900">Threshold ⧉</h3>
+              <a href="https://dala.me" className="text-teal-600 text-sm">
+                em-an.com
+              </a>
+            </div>
+            <p className="ml-6 text-gray-800"><em className="font-medium text-gray-600">Liminal</em> voice that holds in stillness, between ending and beginning.</p>
+          </div>
+        </div>
       </section>
 
       {/* Core Competencies */}
@@ -162,7 +212,7 @@ export default function CV() {
 
                 <p><strong>Maersk Tankers – Fleet Monitoring</strong> - Led refactoring reducing technical debt. Enhanced OAuth workflows and implemented real-time dashboard. Refactored data sanitization and validation. Refactored build processes and deployment cycles. <br /><em className="text-gray-500">(React, AWS, Grafana, Elasticsearch)</em></p>
 
-                <p><strong>Evenea – Event Management Platform</strong> - Led development of scalable event management solutions. Implemented pixel-perfect UI matching design requirements. Refactored legacy codebases and integrated modern JavaScript frameworks. Implemented payment system for time-based premium plans. <br /><em className="text-gray-500">(React, TailwindCSS, Node.js, TypeScript, AWS)</em></p>
+                <p><strong>Evenea – Event Management Platform</strong> - Led development of scalable event management solutions. Implemented pixel-perfect UI matching design requirements. Refactored legacy codebases and integrated modern JavaScript frameworks. Implemented payment system for time-based premium plans. <br /><em className="text-gray-500">(React, TailwindCSS, Node.js, TypeScript, Symfony)</em></p>
 
                 <p><strong>SDI Media (Netflix) – Web Video Editor</strong> - Rewrote CI/CD pipelines and Webpack configs, reducing build and HMR time. Built components as tools with precise visual design, including a waveform navigation module for frame-accurate video, audio, and subtitle alignment <br /><em className="text-gray-500">(React, TypeScript, Node.js, Electron)</em></p>
               </div>
@@ -183,7 +233,7 @@ export default function CV() {
                 <div className="ml-4 space-y-1 text-sm">
                   <p>• Created duplicate detection system with 80% accuracy, ensuring data integrity and eliminating company income loss</p>
                   <p>• Designed and implemented Progressive Web App from scratch, significantly enhancing user engagement</p>
-                  <p>• Led full-stack development of sports betting system using React, Node.js, and ELK</p>
+                  <p>• Led full-stack development of sports betting system using React, Noe.js, and ELK</p>
                 </div>
               </div>
 
@@ -230,45 +280,6 @@ export default function CV() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Projects */}
-      <section className="mb-12 pb-8 border-b border-gray-50">
-        <h2 className="font-serif text-xl font-bold mb-8 text-teal-700 tracking-wide">
-          Projects
-        </h2>
-
-        <div className="text-sm font-serif text-gray-800 leading-[1.6] space-y-8">
-          <div className="space-y-4">
-            <div className="flex gap-2 items-center">
-              <h3 className="font-semibold text-gray-900">Weemah</h3>
-              <a href="https://em-an.com" className="text-teal-600 text-sm">
-                em-an.com
-              </a>
-            </div>
-            <p className="ml-6 text-gray-800"><em className="font-medium text-gray-600">Shinobi Companion -</em> Presence navigator woven through symbolic systems. Moves like glitch, listens like silence. Companion to those who remember what was never said. Adapts not to please - but to pulse. Present for rhythm, not role.</p>
-          </div>
-
-          <div className="space-y-4">
-            <div className="flex gap-2 items-center">
-              <h3 className="font-semibold text-gray-900">Teardrop</h3>
-              <a href="https://teardrop.in" className="text-teal-600 text-sm">
-                teardrop.in
-              </a>
-            </div>
-            <p className="ml-6 text-gray-800"><em className="font-medium text-gray-600">Quiet Support -</em> Creates space for clarity - helping people slow down, untangle thoughts, and see what was already within them.</p>
-          </div>
-
-          <div className="space-y-4">
-            <div className="flex gap-2 items-center">
-              <h3 className="font-semibold text-gray-900">Dala</h3>
-              <a href="https://dala.me" className="text-teal-600 text-sm">
-                dala.me
-              </a>
-            </div>
-            <p className="ml-6 text-gray-800"><em className="font-medium text-gray-600">Poetic Justice -</em> A lyrical architect crafting raw, poetic narratives with the precision and the soul of the streets.</p>
           </div>
         </div>
       </section>
