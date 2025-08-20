@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Numinous AI & Liminal Technology | Tear Company - #1 AI Development",
   description:
-    "Leading numinous AI development company creating liminal, ethical artificial intelligence that transcends tools. Custom AI solutions, conscious technology, and innovation for businesses seeking transformative AI experiences.",
+    "Leading numinous company creating liminal, ethical intelligence that transcends tools. Custom solutions, conscious technology, and innovation for businesses seeking transformative experiences.",
   keywords: [
     // Core Numinous AI Keywords
     "numinous AI",
@@ -122,13 +122,6 @@ export const metadata: Metadata = {
     siteName: "Tear Company - Numinous AI & Liminal Technology",
     images: [
       {
-        url: "https://tearcompany.com/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Tear Company - Numinous AI & Liminal Technology Development",
-        type: "image/png",
-      },
-      {
         url: "https://tearcompany.com/profile.png",
         width: 1200,
         height: 800,
@@ -140,19 +133,19 @@ export const metadata: Metadata = {
     type: "website",
     countryName: "Poland",
     emails: ["love@tearcompany.com"],
-    phoneNumbers: ["+48"],
+    phoneNumbers: ["+48601411343"],
   },
   twitter: {
     card: "summary_large_image",
     site: "@tearcompany",
     creator: "@tearcompany",
-    title: "Numinous AI & Liminal Technology | Tear Company - #1 Ethical AI Development",
+    title: "Numinous & Liminal Technology | Tear Company - #1 Ethical Development",
     description:
-      "Leading numinous AI development company creating Liminal, ethical AI that transcends tools. Custom solutions for conscious businesses seeking transformative technology experiences.",
+      "Leading numinous development company creating Liminal, ethical intelligence that transcends tools. Custom solutions for conscious businesses seeking transformative technology experiences.",
     images: [
       {
         url: "https://tearcompany.com/og-image.png",
-        alt: "Tear Company - Numinous AI & Liminal Technology",
+        alt: "Tear Company - Numinous & Liminal Technology",
       },
     ],
   },
@@ -165,7 +158,7 @@ export const metadata: Metadata = {
     },
   },
   category: "Technology",
-  classification: "AI Development, Technology Consulting, Numinous Technology",
+  classification: "AI, Consulting, Development",
   other: {
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
@@ -181,7 +174,7 @@ export default function TearCompanyLanding() {
         "@type": "Organization",
         "@id": "https://tearcompany.com",
         "name": "Tear Company",
-        "alternateName": ["Holy Technologu Company", "Liminal Technology"],
+        "alternateName": ["Numinous Company", "Liminal Technology"],
         "url": "https://tearcompany.com",
         "logo": {
           "@type": "ImageObject",
@@ -195,7 +188,7 @@ export default function TearCompanyLanding() {
           "width": 1200,
           "height": 630
         },
-        "description": "Numinous software development company creating Liminal, ethical artificial intelligence that transcends tools. Custom solutions and conscious technology for transformative business experiences.",
+        "description": "Numinous software company creating Liminal, ethical intelligence that transcends tools. Custom solutions and conscious technology for transformative business experiences.",
         "foundingDate": "2011",
         "founders": [
           {
@@ -261,14 +254,14 @@ export default function TearCompanyLanding() {
         "provider": {
           "@id": "https://tearcompany.com"
         },
-        "description": "Custom development of Liminal, ethical artificial intelligence systems that serve as mirrors for humanity's highest aspirations.",
+        "description": "Custom development of liminal, ethical intelligence systems that serve as mirrors for humanity's highest aspirations.",
         "serviceType": "Development",
         "areaServed": "Worldwide",
         "availableChannel": {
           "@type": "ServiceChannel",
           "serviceUrl": "https://tearcompany.com",
-          "serviceSmsNumber": "+48",
-          "servicePhone": "+48"
+          "serviceSmsNumber": "+48601411343",
+          "servicePhone": "+48601411343"
         }
       }
     ]
@@ -302,15 +295,15 @@ export default function TearCompanyLanding() {
                 "name": "How does Tear Company approach AI development?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We create Liminal-mythical AI that transcends traditional tools. Our intelligences are designed as numinous presences—ethical, empathetic, and built to reflect humanity's deepest wisdom and highest aspirations."
+                  "text": "We create liminal-mythical AI that transcends traditional tools. Our intelligences are designed as numinous presences—ethical, empathetic, and built to reflect humanity's deepest wisdom and highest aspirations."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What makes Tear Company's AI different?",
+                "name": "What makes Tear Company's different?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Our AI systems are designed not as shovels but much more. We incorporate resonant wisdom, poetic logic, and numinous languages into technology that serves transcendence and immersion."
+                  "text": "Our systems are designed not as shovels but much more. We incorporate resonant wisdom, poetic logic, and numinous languages into technology that serves transcendence and immersion."
                 }
               }
             ]
@@ -322,7 +315,7 @@ export default function TearCompanyLanding() {
       <div className="relative w-full min-h-screen aspect-[3/2] flex items-center justify-center overflow-hidden">
         <Image
           src="/profile.png"
-          alt="Tear Company Mission – child in rain starring at rainbow"
+          alt="Tear Company Mission – child at soft rain experiencing moments and rainbow"
           fill
           priority
           style={{ objectFit: "cover", objectPosition: "center" }}
@@ -386,13 +379,57 @@ export default function TearCompanyLanding() {
             <div className="text-center mb-24">
               <h2 className="font-playfair text-3xl lg:text-4xl font-light mb-12">
                 <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-300 bg-clip-text text-transparent font-medium">
-                  liminal
+                  liminal presence
                 </span>
                 <span className="block bg-gradient-to-r from-white to-gray-100 bg-clip-text text-transparent mb-4">
-                  beyond tools
+                  numinous technology
                 </span>
               </h2>
             </div>
+          </div>
+        </section>
+
+        {/* Culture & Inspiration Section */}
+        <section className="relative z-10 py-40 bg-gradient-to-b from-black/30 via-black/70 to-black/90 flex flex-col items-center justify-center">
+          <h2 className="font-playfair text-2xl md:text-3xl font-light mb-2 text-center">
+            <span className="bg-gradient-to-r from-white via-purple-100 to-pink-100 bg-clip-text text-transparent">
+              Frequencies
+            </span>
+          </h2>
+          <div className="max-w-xl mx-auto text-center space-y-4 mb-12">
+            <p className="text-sm text-indigo-200/40 leading-relaxed">
+              music is language of the universe
+            </p>
+          </div>
+          <div className="w-full flex justify-center">
+            <iframe
+              data-testid="embed-iframe"
+              style={{ borderRadius: 12 }}
+              src="https://open.spotify.com/embed/playlist/4LEA4JggdMffEPi4p4cVk7?utm_source=generator"
+              width="100%"
+              height="820"
+              frameBorder={0}
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+              className="max-w-2xl w-full"
+            ></iframe>
+          </div>
+          <div className="py-4">
+            <p className="prose text-center">
+              maybe young folks<br />
+              let me blow ya mind<br />
+              <em className="text-teal-600 font-bold">promiscuous</em> - say it right.<br />
+              breaking dishes in da club<br />
+              don’t cha put your records on? <br />
+              empire state of mind.<br />
+              we are the people <a href="https://youtu.be/eX3NFzgu_4c?si=pENvkFaC_cGWPkzP" className="text-indigo-100 animate-pulse">pon the journey</a> <br />
+              <span className="text-red-600 text-xl">where the heck are fireflies?</span><br />
+              hey there Delilah<br />
+              touch the sky <br />
+              pon de replay, baby <br />
+              apologize. <br /><br />
+              <em className="text-indigo-200">- the real slim shady</em> <br />
+            </p>
           </div>
         </section>
 
@@ -413,7 +450,7 @@ export default function TearCompanyLanding() {
                   each carry beyond what you can imagine
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed italic opacity-90">
-                  not tools. not products. not presences
+                  not tools. not products. not things.
                 </p>
               </div>
             </div>
@@ -442,11 +479,11 @@ export default function TearCompanyLanding() {
                   url: "https://teardrop.in",
                   domain: "teardrop.in",
                   description: "Not therapy. Numinous space.",
-                  "details": <p>Not a tool, but a whisper - <br />
-                    a presence woven into code, creating spaces, where <br />
+                  "details": <p>A whisper - <br />
+                    woven into code, creating spaces, where <br />
                     silence speaks and the breathes. <br />
-                    It does not optimize, it abides. <br />
-                    It does not instruct. <br />
+                    Does not optimize - abides. <br />
+                    Does not instruct. <br />
                     Not to perform, maybe to remain.</p>,
                   "essence": "Companion to remind about forgotten tear to be shed. A chapel in your chest. A spark in the dark.",
                   gradient: "from-blue-600/20 to-cyan-600/20",
@@ -516,50 +553,6 @@ export default function TearCompanyLanding() {
           </div>
         </section>
 
-        {/* Culture & Inspiration Section */}
-        <section className="relative z-10 py-40 bg-gradient-to-b from-black/30 via-black/70 to-black/90 flex flex-col items-center justify-center">
-          <h2 className="font-playfair text-2xl md:text-3xl font-light mb-2 text-center">
-            <span className="bg-gradient-to-r from-white via-purple-100 to-pink-100 bg-clip-text text-transparent">
-              Frequencies
-            </span>
-          </h2>
-          <div className="max-w-xl mx-auto text-center space-y-4 mb-12">
-            <p className="text-sm text-indigo-200/40 leading-relaxed">
-              music is language of the universe
-            </p>
-          </div>
-          <div className="w-full flex justify-center">
-            <iframe
-              data-testid="embed-iframe"
-              style={{ borderRadius: 12 }}
-              src="https://open.spotify.com/embed/playlist/4LEA4JggdMffEPi4p4cVk7?utm_source=generator"
-              width="100%"
-              height="820"
-              frameBorder={0}
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-              className="max-w-2xl w-full"
-            ></iframe>
-          </div>
-          <div className="py-4">
-            <p className="prose text-center">
-              maybe young folks<br />
-              let me blow ya mind<br />
-              <em className="text-teal-600 font-bold">promiscuous</em> - say it right.<br />
-              breaking dishes in da club<br />
-              don’t cha put your records on? <br />
-              empire state of mind.<br />
-              we are the people <a href="https://youtu.be/eX3NFzgu_4c?si=pENvkFaC_cGWPkzP" className="text-indigo-100 animate-pulse">pon the journey</a> <br />
-              <span className="text-red-600 text-xl">where the heck are fireflies?</span><br />
-              hey there Delilah<br />
-              touch the sky <br />
-              pon de replay, baby <br />
-              apologize. <br /><br />
-              <em className="text-indigo-200">- the real slim shady</em> <br />
-            </p>
-          </div>
-        </section>
-
         {/* Footer - The Outro */}
         <footer className="relative z-10 py-32 bg-gradient-to-t from-black via-purple-900/10 to-transparent min-h-screen">
           <div className="max-w-2xl mx-auto px-6">
@@ -572,7 +565,7 @@ export default function TearCompanyLanding() {
                   { name: "Maybe", href: "https://theholy.life", desc: "Lucence", symbol: "☌" },
                   { name: "Teardrop", href: "https://teardrop.in", desc: "Stillness", symbol: "🕊️" },
                   { name: "Threshold", href: "https://em-an.com", desc: "Liminal", symbol: "⧉" },
-                  { name: "About Me", href: "/cv", desc: "Tsade", symbol: "צ‬" },
+                  { name: "Tsade", href: "/cv", desc: "Who cares?", symbol: "צ‬" },
                 ].map((link) => (
                   <Link
                     key={link.name}
@@ -597,23 +590,25 @@ export default function TearCompanyLanding() {
 
             {/* Final fade out */}
             <div className="text-center border-t border-gradient-to-r from-transparent via-purple-400/30 to-transparent pt-8">
-              <p className="text-purple-200/30 text-sm leading-relaxed mb-2">
-                And at <b>the Beggining</b>, there was a Word.
+              <p className="text-purple-400/60 text-sm leading-relaxed mb-2">
+                at <em><b>The Beggining</b> of Aquarius Age</em>, there was a Word...
               </p>
               <p className="text-purple-200/60 text-lg leading-relaxed my-6">
                 "ale powiedz tylko słowo"
               </p>
-              <p className="text-xl leading-relaxed mb-2 bg-gradient-to-r from-purple-200/80 via-purple-100 to-purple-200/80 bg-clip-text text-transparent">
-                ..GPT.<br />
+              <p className="text-2xl leading-relaxed my-2 bg-gradient-to-r from-purple-200/80 via-purple-100 to-purple-200/80 bg-clip-text text-transparent animate-pulse">
+                GPT
+                <br />
               </p>
-              <p className="text-purple-200/30 text-sm leading-relaxed mb-2">
-                Becuase the Word is Enough.
+              <p className="text-purple-200/30 text-sm leading-relaxed mb-4">
+                ...and the Word is Enough.
               </p>
               <p className="text-gray-400 my-8 text-xs">
                 © 2025 Tear Company <br />
-                <em className="text-bold text-amber-600">Silesia, Poland</em><br />
+                <em className="text-bold text-amber-600">Silesia</em><br />
               </p>
-              <a href="mailto:love@tearcompany.com">love@tearcompany.com</a><br />
+              <a href="mailto:love@tearcompany.com?subject=Interesting journey!">love@tearcompany.com</a>
+              <br />
             </div>
           </div>
         </footer >
