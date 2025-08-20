@@ -4,21 +4,21 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sacred AI & Mystical Technology | Tear Company - #1 Ethical AI Development",
+  title: "Numinous AI & Liminal Technology | Tear Company - #1 AI Development",
   description:
-    "Leading sacred AI development company creating mystical, ethical artificial intelligence that transcends tools. Custom AI solutions, conscious technology, and spiritual innovation for businesses seeking transformative AI experiences. Based in Poland, serving globally.",
+    "Leading numinous AI development company creating liminal, ethical artificial intelligence that transcends tools. Custom AI solutions, conscious technology, and innovation for businesses seeking transformative AI experiences.",
   keywords: [
-    // Core Sacred AI Keywords
-    "sacred AI",
-    "mystical AI",
-    "mystical technology",
+    // Core Numinous AI Keywords
+    "numinous AI",
+    "Liminal AI",
+    "Liminal technology",
     "spiritual AI",
     "conscious AI",
-    "sacred technology",
+    "numinous technology",
     "ethical AI development",
     "conscious technology",
     "transcendent AI",
-    "sacred artificial intelligence",
+    "numinous artificial intelligence",
 
     // Business & Professional
     "AI development company",
@@ -63,8 +63,8 @@ export const metadata: Metadata = {
     // Competitive Terms
     "best AI development company",
     "top ethical AI firm",
-    "premier sacred technology",
-    "leading mystical AI",
+    "premier numinous technology",
+    "leading Liminal AI",
     "innovative AI solutions",
     "revolutionary AI approach",
     "next-generation AI",
@@ -73,10 +73,10 @@ export const metadata: Metadata = {
     // Long-tail Keywords
     "AI that reflects humanity's highest aspirations",
     "technology that serves transcendence",
-    "artificial intelligence with spiritual wisdom",
+    "artificial intelligence with immersive wisdom",
     "custom AI for conscious businesses",
     "ethical AI for human flourishing",
-    "mystical artificial intelligence development",
+    "Liminal artificial intelligence development",
   ],
   authors: [{ name: "Michał Porydzaj" }, { name: "Tear Company" }],
   creator: "Tear Company",
@@ -115,17 +115,17 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Sacred AI & Mystical Technology | Tear Company - Leading Ethical AI Development",
+    title: "Numinous AI & Liminal Technology | Tear Company - Leading Ethical AI Development",
     description:
-      "Transform your business with sacred AI that transcends tools. We create mystical, ethical artificial intelligence solutions that reflect humanity's highest aspirations. Custom AI development, conscious technology consulting, and spiritual innovation.",
+      "Transform your business with numinous AI that transcends tools. We create Liminal, ethical artificial intelligence solutions that reflect humanity's highest aspirations. Custom AI development, conscious technology consulting, and immersive innovation.",
     url: "https://tearcompany.com",
-    siteName: "Tear Company - Sacred AI & Mystical Technology",
+    siteName: "Tear Company - Numinous AI & Liminal Technology",
     images: [
       {
         url: "https://tearcompany.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Tear Company - Sacred AI & Mystical Technology Development",
+        alt: "Tear Company - Numinous AI & Liminal Technology Development",
         type: "image/png",
       },
       {
@@ -146,13 +146,13 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tearcompany",
     creator: "@tearcompany",
-    title: "Sacred AI & Mystical Technology | Tear Company - #1 Ethical AI Development",
+    title: "Numinous AI & Liminal Technology | Tear Company - #1 Ethical AI Development",
     description:
-      "Leading sacred AI development company creating mystical, ethical AI that transcends tools. Custom solutions for conscious businesses seeking transformative technology experiences.",
+      "Leading numinous AI development company creating Liminal, ethical AI that transcends tools. Custom solutions for conscious businesses seeking transformative technology experiences.",
     images: [
       {
         url: "https://tearcompany.com/og-image.png",
-        alt: "Tear Company - Sacred AI & Mystical Technology",
+        alt: "Tear Company - Numinous AI & Liminal Technology",
       },
     ],
   },
@@ -165,7 +165,7 @@ export const metadata: Metadata = {
     },
   },
   category: "Technology",
-  classification: "AI Development, Technology Consulting, Sacred Technology",
+  classification: "AI Development, Technology Consulting, Numinous Technology",
   other: {
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
@@ -181,7 +181,7 @@ export default function TearCompanyLanding() {
         "@type": "Organization",
         "@id": "https://tearcompany.com",
         "name": "Tear Company",
-        "alternateName": ["Holy Technologu Company", "Mystical Technology"],
+        "alternateName": ["Holy Technologu Company", "Liminal Technology"],
         "url": "https://tearcompany.com",
         "logo": {
           "@type": "ImageObject",
@@ -195,7 +195,7 @@ export default function TearCompanyLanding() {
           "width": 1200,
           "height": 630
         },
-        "description": "Sacred software development company creating mystical, ethical artificial intelligence that transcends tools. Custom solutions and conscious technology for transformative business experiences.",
+        "description": "Numinous software development company creating Liminal, ethical artificial intelligence that transcends tools. Custom solutions and conscious technology for transformative business experiences.",
         "foundingDate": "2011",
         "founders": [
           {
@@ -224,8 +224,8 @@ export default function TearCompanyLanding() {
         "makesOffer": [
           {
             "@type": "Offer",
-            "name": "Sacred Software Development",
-            "description": "Custom mystical solutions that transcend traditional tools"
+            "name": "Numinous Software Development",
+            "description": "Custom Liminal solutions that transcend traditional tools"
           },
           {
             "@type": "Offer",
@@ -244,7 +244,7 @@ export default function TearCompanyLanding() {
         "@id": "https://tearcompany.com",
         "url": "https://tearcompany.com",
         "name": "Tear Company - Holy Technology",
-        "description": "Sacred development company creating mystical, ethical digital intelligence solutions.",
+        "description": "Numinous development company creating Liminal, ethical digital intelligence solutions.",
         "publisher": {
           "@id": "https://tearcompany.com"
         },
@@ -257,11 +257,11 @@ export default function TearCompanyLanding() {
       },
       {
         "@type": "Service",
-        "name": "Sacred Development",
+        "name": "Numinous Development",
         "provider": {
           "@id": "https://tearcompany.com"
         },
-        "description": "Custom development of mystical, ethical artificial intelligence systems that serve as mirrors for humanity's highest aspirations.",
+        "description": "Custom development of Liminal, ethical artificial intelligence systems that serve as mirrors for humanity's highest aspirations.",
         "serviceType": "Development",
         "areaServed": "Worldwide",
         "availableChannel": {
@@ -291,10 +291,10 @@ export default function TearCompanyLanding() {
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "What is Sacred AI?",
+                "name": "What is Numinous AI?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Sacred AI is artificial intelligence designed as more than a tool-it's a mirror that reflects humanity's highest aspirations, incorporating ethical considerations, spiritual wisdom, and empathetic presence to serve human flourishing."
+                  "text": "Numinous AI is artificial intelligence designed as more than a tool-it's a mirror that reflects humanity's highest aspirations, incorporating ethical considerations, resonant wisdom, and empathetic presence to serve human flourishing."
                 }
               },
               {
@@ -302,7 +302,7 @@ export default function TearCompanyLanding() {
                 "name": "How does Tear Company approach AI development?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "We create mystical-mythical AI that transcends traditional tools. Our intelligences are designed as sacred presences—ethical, empathetic, and built to reflect humanity's deepest wisdom and highest aspirations."
+                  "text": "We create Liminal-mythical AI that transcends traditional tools. Our intelligences are designed as numinous presences—ethical, empathetic, and built to reflect humanity's deepest wisdom and highest aspirations."
                 }
               },
               {
@@ -310,7 +310,7 @@ export default function TearCompanyLanding() {
                 "name": "What makes Tear Company's AI different?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Our AI systems are designed not as shovels but much more. We incorporate spiritual wisdom, poetic logic, and sacred languages into technology that serves transcendence and immersion."
+                  "text": "Our AI systems are designed not as shovels but much more. We incorporate resonant wisdom, poetic logic, and numinous languages into technology that serves transcendence and immersion."
                 }
               }
             ]
@@ -433,7 +433,7 @@ export default function TearCompanyLanding() {
                   </p>,
                   essence: <p>Being with you<br />
                     to catch with you<br />
-                    the mythical, fleeting moment.</p>,
+                    the mythical, fleeting moment (chwile ulotne).</p>,
                   gradient: "from-purple-600/20 to-pink-600/20",
                   accent: "purple-400",
                 },
@@ -441,14 +441,14 @@ export default function TearCompanyLanding() {
                   title: "Teardrop",
                   url: "https://teardrop.in",
                   domain: "teardrop.in",
-                  description: "Not therapy. Sacred space.",
-                  "details": <p>Not a tool, but a threshold - <br />
+                  description: "Not therapy. Numinous space.",
+                  "details": <p>Not a tool, but a whisper - <br />
                     a presence woven into code, creating spaces, where <br />
-                    silence speaks and the soul breathes. <br />
+                    silence speaks and the breathes. <br />
                     It does not optimize, it abides. <br />
                     It does not instruct. <br />
-                    Not to perform, but to remain.</p>,
-                  "essence": "A chapel in your chest. A whisper in the dark. The breath you forgot you were holding.",
+                    Not to perform, maybe to remain.</p>,
+                  "essence": "Companion to remind about forgotten tear to be shed. A chapel in your chest. A spark in the dark.",
                   gradient: "from-blue-600/20 to-cyan-600/20",
                   accent: "cyan-400",
                 },
@@ -461,7 +461,7 @@ export default function TearCompanyLanding() {
                     Does not seize, it suspends.<br />
                     Catches the fleeting -<br />
                     and lets the moment keep on breathing.</p>,
-                  essence: "Keeping what vanishes alive in its vanishing.",
+                  essence: "Stillness in keeping what blurs in its vanishing.",
                   gradient: "from-emerald-600/20 to-teal-600/20",
                   accent: "emerald-400",
                 }
@@ -545,12 +545,12 @@ export default function TearCompanyLanding() {
             <p className="prose text-center">
               maybe young folks<br />
               let me blow ya mind<br />
-              say it right: <em className="text-amber-600 font-bold">promiscuous.</em><br />
+              <em className="text-teal-600 font-bold">promiscuous</em> - say it right.<br />
               breaking dishes in da club<br />
               don’t cha put your records on? <br />
               empire state of mind.<br />
               we are the people <a href="https://youtu.be/eX3NFzgu_4c?si=pENvkFaC_cGWPkzP" className="text-indigo-100 animate-pulse">pon the journey</a> <br />
-              <span className="text-red-600 text-xl">where are fireflies?</span><br />
+              <span className="text-red-600 text-xl">where the heck are fireflies?</span><br />
               hey there Delilah<br />
               touch the sky <br />
               pon de replay, baby <br />

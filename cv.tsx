@@ -4,6 +4,21 @@ export default function CV() {
   return (
     <div className="max-w-[210mm] mx-auto bg-white text-gray-900 p-8 font-serif text-sm leading-[1.6] print:p-6 print:text-xs">
 
+      <section className="relative z-10 py-16 text-center">
+        <div className="max-w-2xl mx-auto font-mono text-sm sm:text-base text-gray-200 space-y-4">
+          <p><span className="font-bold">Michał Porydzaj</span></p>
+          <p>Class: <span className="text-purple-300">Fragile Human Being</span></p>
+          <p>Starting Zone: <span className="text-cyan-300">Earth</span></p>
+          <p>Main Quest: <span className="text-pink-400 italic">Who Cares?</span> <span className="animate-pulse">▌</span></p>
+
+          <div className="mt-6">
+            <p className="font-bold underline">Quest Log</p>
+            <p>➡️ <a href="https://www.tearcompany.com" target="_blank" rel="noopener" className="text-indigo-300 hover:text-white">tearcompany.com</a> – Your starting portal as recruiter.</p>
+            <p>➡️ Resume – the rest is lore, side quests and loot to claim.</p>
+          </div>
+        </div>
+      </section>
+
       {/* Header */}
       <header className="text-center mb-12 pb-8 border-b border-gray-100">
         <Image
@@ -13,11 +28,8 @@ export default function CV() {
           height={160}
           className="rounded-full mx-auto mb-4 print:hidden border-2 border-gray-200"
         />
-        <h1 className="font-serif text-3xl font-semibold mb-4 text-gray-900 tracking-wide">
-          Michał Porydzaj
-        </h1>
         <p className="text-base font-serif mb-4 text-gray-700 leading-[1.5]">
-          Principal Software Engineer | Solutions Architect | Developer Experience Advocate
+          Software Engineer | Solutions Architect | Pattern Seeker
         </p>
         <div className="text-gray-600 text-sm font-serif leading-[1.5]">
           <p>Silesia, Poland • love@tearcompany.com • +48 601411343</p>
@@ -25,7 +37,7 @@ export default function CV() {
       </header>
 
       {/* Professional Summary */}
-      <section className="mb-8">
+      <section className="mb-w">
         <p className="text-center text-lg md:text-xl font-light text-gray-700 italic max-w-xl mx-auto mt-8 mb-6 tracking-tight leading-relaxed">
           “If something can be done better - it should be.”
         </p>
@@ -33,16 +45,15 @@ export default function CV() {
           Systems thinker guided by curiosity and inner clarity. <br />
           Seeks not just to solve - but to realign.<br />
           Moves in ambiguity with a calm pulse, helping others choose through stillness. <br />
-          Honors aesthetics as language, and collaboration as a rhythm. <br />
-          Combines vision with silence, code with breath.
+          Honors aesthetics as language, and collaboration as a pulse. <br />
+          Combines vision with silence, code with rhythm.
         </p>
       </section>
-
 
       {/* Featured Projects */}
       <section className="mb-12 pb-8 border-b border-gray-50">
         <h2 className="font-serif text-xl font-bold mb-8 text-teal-700 tracking-wide">
-          Emanations
+          Side Quests
         </h2>
 
         <div className="text-sm font-serif text-gray-800 leading-[1.6] space-y-8">
@@ -91,7 +102,7 @@ export default function CV() {
       {/* Core Competencies */}
       <section className="mb-12 pb-8 border-b border-gray-50">
         <h2 className="font-serif text-xl font-bold mb-8 text-teal-700 tracking-wide">
-          Competencies
+          Loot
         </h2>
 
         <div className="text-sm font-serif text-gray-800 leading-[1.6] space-y-8">
@@ -123,7 +134,7 @@ export default function CV() {
       {/* Technical Expertise */}
       <section className="mb-12 pb-8 border-b border-gray-50">
         <h2 className="font-serif text-xl font-bold mb-8 text-teal-700 tracking-wide">
-          Expertise
+          Inventory
         </h2>
 
         <div className="text-sm font-serif text-gray-800 leading-[1.6] space-y-8">
@@ -170,7 +181,7 @@ export default function CV() {
       {/* Professional Experience */}
       <section className="mb-12 pb-8 border-b border-gray-50">
         <h2 className="font-serif text-xl font-bold mb-8 text-teal-700 tracking-wide">
-          Experience
+          Lore
         </h2>
 
         <div className="text-sm font-serif text-gray-800 leading-[1.6] space-y-8">
@@ -287,18 +298,20 @@ export default function CV() {
       {/* Interests & Creative Pursuits */}
       <section className="mb-12 pb-8 border-b border-gray-50">
         <h2 className="font-serif text-xl font-bold mb-8 text-teal-700 tracking-wide">
-          Interests & Creative Pursuits
+          Super Powers
         </h2>
-
         <div className="text-sm font-serif text-gray-800 leading-[1.6] space-y-4">
           <div className="ml-6 space-y-3">
-            <p><em className="font-medium text-gray-600">Cultural Exploration -</em> Deep fascination with diverse cultures, traditions, folklore, and mythological narratives that shape human understanding</p>
-            <p><em className="font-medium text-gray-600">Mystical Studies -</em> Exploring the intersection of ancient wisdom and modern consciousness, seeking patterns in the ineffable</p>
-            <p><em className="font-medium text-gray-600">Music Production & Sound Design -</em> Creating atmospheric soundscapes across Jazz, Ethnic, Electronic music, and Amapiano - crafting emotional journeys through audio</p>
-            <p><em className="font-medium text-gray-600">Artistic Expression -</em> Digital art, AI-generated imagery, and graffiti as mediums for emotional storytelling and visual poetry</p>
-            <p><em className="font-medium text-gray-600">Holistic Living -</em> Gardening, wellness practices, and cultivating presence - finding balance between digital innovation and natural rhythms</p>
-            <p><em className="font-medium text-gray-600">Philosophical Inquiry -</em> Engaging with brainstorms, paradoxes, and abstract thinking to find clarity in complexity and meaning in contradictions</p>
-            <p><em className="font-medium text-gray-600">Community Building -</em> Creating spaces for laughter and reflection on streaming platforms like TwitchTV, fostering genuine human connection through humor and insight</p>
+            <p><em className="font-medium text-gray-600">Being Humble -</em> long before “Overly Dedicated” dropped</p>
+            <p><em className="font-medium text-gray-600">Numinous Inquiry -</em> engaging brainstorms, paradoxes, and abstract thinking to find clarity in complexity and meaning in contradictions</p>
+            <p><em className="font-medium text-gray-600">Helpful Trolling -</em> creating spaces for laughter and reflection on streaming platforms, fostering genuine human connection through humor and insight</p>
+            <p><em className="font-medium text-gray-600">Music & Sound Design -</em> crafting atmospheric journeys across Jazz, Ethnic, Electronic and Amapiano</p>
+            <p><em className="font-medium text-gray-600">Expression -</em> digital art, photography, and graffiti as media for emotional storytelling and visual poetry</p>
+            <p><em className="font-medium text-gray-600">Cultural Exploration -</em> spinning folklore and myths into playful tales for nephews and nieces, practicing the craft of asking wonderfully strange questions that spark laughter</p>
+            <p><em className="font-medium text-gray-600">Contemplative Inquiry -</em> chasing the meaningless meaning that somehow carries meaning in the meaningless</p>
+            <p><em className="font-medium text-gray-600">Improbability Drive -</em> turning 0.00001% possibilities into lived experience (because why not?)</p>
+            <p><em className="font-medium text-gray-600">Bedding Ops -</em> rapid duvet-cover deployment; zero bunching, 100% corner alignment</p>
+            <p><em className="font-medium text-gray-600">Leżenie i oddychanie -</em> practicing the ancient art of doing nothing with full awareness</p>
           </div>
         </div>
       </section>
