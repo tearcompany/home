@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Numinous AI & Liminal Technology | Tear Company - #1 AI Development",
+  title: "Numinous AI & Liminal Technology | Tear Company",
   description:
     "Leading numinous company creating liminal, ethical intelligence that transcends tools. Custom solutions, conscious technology, and innovation for businesses seeking transformative experiences.",
   keywords: [
@@ -342,7 +342,7 @@ export default function TearCompanyLanding() {
               Tear Company
             </h1>
             <p className="text-center text-sm text-indigo-300/70 tracking-wide mt-2">
-              Let’s <span className="text-white font-medium">[pioneer]</span> a pulse of digital expression.
+              ...let’s <span className="text-white font-medium">[pioneer]</span> a pulse of incantation.
             </p>
           </div>
         </nav>
@@ -357,7 +357,7 @@ export default function TearCompanyLanding() {
                     Either you choose the path,
                   </span>
                   <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-300 bg-clip-text text-transparent font-bold tracking-tight animate-pulse">
-                    or the path choses you.
+                    or the path will chose You.
                   </span>
                 </h1>
 
