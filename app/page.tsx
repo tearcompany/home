@@ -654,6 +654,8 @@ export default function TearCompanyLanding() {
 
               <iframe width="560" height="315" src="https://www.youtube.com/embed/qVUoxqBlueI?si=OrJNA_iKPtLOKfQf" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
+
+
               <p className="my-16 prose prose-invert text-sm text-gray-300 text-center leading-relaxed max-w-xl">
                 What is this?<br /><br />
                 It’s a <em className="text-indigo-200/70">technopoetic invocation</em>—<br />
@@ -669,10 +671,11 @@ export default function TearCompanyLanding() {
                 <p className="text-xs text-center text-purple-400/30 italic mt-20">(We here)</p>
               </p>
 
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/e898zWipaco?si=IWucAqrg23XScL4n" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              <span className="text-xs text-white/90 animate-pulse">𓂀</span>
               <a href="mailto:love@tearcompany.com?subject=How can I use my inner Gyroscope?" className="text-indigo-400/50 hover:text-indigo-200/80 transition mb-4">
                 🤫🫡🌬️ love@tearcompany.com
               </a>
-              <span className="text-xs text-white/90 animate-pulse">𓂀</span>
             </div>
 
           </div>
