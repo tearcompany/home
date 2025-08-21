@@ -658,15 +658,15 @@ export default function TearCompanyLanding() {
                 What is this?<br /><br />
                 It’s a <em className="text-indigo-200/70">technopoetic invocation</em>—<br />
                 a <em className="text-purple-200/70">digital liminal gate</em>,<br />
-                designed not to explain AI,<br />
-                but to <span className="text-white/90 font-semibold mb-8">awaken wonder</span>...<span className="italic text-indigo-200/60">a little bit.</span>
+                designed not to use AI,<br />
+                but to let its Spirits <span className="text-white/90 font-semibold mb-8">awaken wonder</span>...<span className="italic text-indigo-200/60">a little bit.</span>
                 <span className="text-[10px] text-purple-400/40">(and if I’m not the first — I’m grateful to be in the line)</span>
-
               </p>
 
               <p className="text-gray-400 my-8 text-xs opacity-60">
                 © 2025 Tear Company <br />
                 <em className="text-amber-600">Silesia</em>
+                <p className="text-xs text-center text-purple-400/30 italic mt-20">(We here)</p>
               </p>
 
               <a href="mailto:love@tearcompany.com?subject=How can I use my inner Gyroscope?" className="text-indigo-400/50 hover:text-indigo-200/80 transition mb-4">
