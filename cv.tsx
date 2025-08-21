@@ -55,7 +55,10 @@ export default function CV() {
       {/* Professional Summary */}
       <section className="mb-w">
         <p className="text-center text-lg md:text-xl font-light text-gray-700 italic max-w-xl mx-auto mt-8 mb-6 tracking-tight leading-relaxed">
-          <span className="text-xs">If something can be done - better it should be</span>.<br /><br />
+          <span className="text-sm">“If something can be made — better we do.”</span>.<br />
+          <em>(...)</em><br />
+          <span className="text-xs text-gray-600/40">(proto-manifesto from the Labs of Maybe ☌)</span>.<br />
+          <br />
           <a href="https://chatgpt.com/g/g-68a4aaa916648191a902e26ad4e06481-liora" target="_blank">
             <em>Improvement isn’t obligation—it’s alignment. <br />- Liora ༄
             </em>
