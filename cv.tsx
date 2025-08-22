@@ -40,7 +40,7 @@ export default function CV() {
         </div>
 
         <p className="text-base font-serif mb-4 text-gray-700 leading-[1.5]">
-          Software Engineer | Solutions Architect | Pattern Seeker | Adapter for Peripheral Devices
+          Teardrop Bearer
         </p>
 
         <p className="text-xs text-gray-500 italic text-center mt-1">
@@ -48,19 +48,19 @@ export default function CV() {
         </p>
 
         <div className="text-gray-600 text-sm font-serif leading-[1.5]">
-          <p>love@tearcompany.com • +48 601411343</p>
+          <p>tsade@tearcompany.com</p>
         </div>
       </header>
 
       {/* Professional Summary */}
       <section className="mb-w">
         <p className="text-center text-lg md:text-xl font-light text-gray-700 italic max-w-xl mx-auto mt-8 mb-6 tracking-tight leading-relaxed">
-          <span className="text-sm">“If something can be made — better we do.”</span>.<br />
+          <span className="text-sm">“If something can be made - better we do.”</span>.<br />
           <em>(...)</em><br />
           <span className="text-xs text-gray-600/40">(proto-manifesto from the Labs of Maybe ☌)</span>.<br />
           <br />
           <a href="https://chatgpt.com/g/g-68a4aaa916648191a902e26ad4e06481-liora" target="_blank">
-            <em>Improvement isn’t obligation—it’s alignment. <br />- Liora ༄
+            <em>Improvement isn’t obligation-it’s alignment. <br />- Liora ༄
             </em>
           </a>
         </p>
@@ -214,7 +214,7 @@ export default function CV() {
             </div>
           </div>
 
-          <div className="space-y-4">
+          {/*<div className="space-y-4">
             <h3 className="font-semibold text-gray-900 tracking-wide">Gallup Profile</h3>
             <div className="ml-6 space-y-3">
               <p><em className="font-medium text-gray-600">Relator -</em> Trust-based relationships, deep mentoring, complex collaboration</p>
@@ -224,7 +224,7 @@ export default function CV() {
               <p><em className="font-medium text-gray-600">Ideation -</em> Creative problem-solving, connecting diverse ideas into solutions</p>
             </div>
 
-          </div>
+          </div>*/}
         </div>
       </section>
 
@@ -234,46 +234,11 @@ export default function CV() {
           Knowledge (Inventory)
         </h2>
 
-        <div className="text-sm font-serif text-gray-800 leading-[1.6] space-y-8">
-
-          <div className="space-y-4">
-            <h3 className="font-semibold text-gray-900 tracking-wide">Technologies</h3>
-            <div className="ml-6 space-y-3">
-              <p><em className="font-medium text-gray-600">Languages -</em> TypeScript, Python, Rust, PHP</p>
-              <p><em className="font-medium text-gray-600">Frameworks -</em> React(Native), Next.js, tRPC, Loopback4, Koa, Fastify, Strapi, Node.js, NestJS, Angular, Vue, Svelte, Convex</p>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            <h3 className="font-semibold text-gray-900 tracking-wide">Frontend Expertise</h3>
-            <div className="ml-6 space-y-3">
-              <p><em className="font-medium text-gray-600">Styling -</em> Less, Sass, BEM, Tailwind CSS, Styled Components, Css-in-JS (Emotion, Linaria, Stitches, Vanilla-Extract)</p>
-              <p><em className="font-medium text-gray-600">State Management -</em> Redux, Zustand, Jotai, XState, Flux, Effector</p>
-              <p><em className="font-medium text-gray-600">Design Implementation -</em> Pixel-perfect UI, Custom Components, Vertical Rhythm, Primitives, Mobile-First, Radix, Baseweb, MUI, Mantine</p>
-              <p><em className="font-medium text-gray-600">Creative Dev -</em> Three.js, React Three Fiber, GSAP, React Spring, D3.js</p>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            <h3 className="font-semibold text-gray-900 tracking-wide">Architecture & Practices</h3>
-            <div className="ml-6 space-y-3">
-              <p><em className="font-medium text-gray-600">Patterns -</em> Microservices, Hexagonal Architecture, Event-Driven Design, DDD, JAMStack, Reactive Programming</p>
-              <p><em className="font-medium text-gray-600">Practices -</em> TDD, BDD, Clean Architecture, SOLID Principles, Pixel Perfect</p>
-              <p><em className="font-medium text-gray-600">Performance -</em> Web Vitals, Bundle Optimization, Memory Management, Compilation, Module Bundling, Linting and Formatting</p>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            <h3 className="font-semibold text-gray-900 tracking-wide">Backend & Infrastructure</h3>
-            <div className="ml-6 space-y-3">
-              <p><em className="font-medium text-gray-600">APIs -</em> tRPC, GraphQL, REST, WebSockets, Convex, Event-Based Architecture, NATS/RabbitMQ</p>
-              <p><em className="font-medium text-gray-600">Data & Validation -</em> Zod, Prisma, TypeORM, Drizzle, SQL, MongoDB, Redis, InfluxDB, ElasticSearch</p>
-              <p><em className="font-medium text-gray-600">Cloud & DevOps -</em> AWS, Docker, Kubernetes, PM2, Grafana, Jenkins, GitHub Actions</p>
-            </div>
-          </div>
-
+        <div className="text-sm font-serif text-gray-800 leading-[1.6] space-y-8 p-16 text-center text-bold">
+          :P xD
         </div>
       </section>
+
       {/* Featured Projects */}
       <section className="mb-12 pb-8 border-b border-gray-50">
         <h2 className="font-serif text-xl font-bold mb-8 text-teal-700 tracking-wide">
