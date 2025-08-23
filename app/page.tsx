@@ -339,8 +339,11 @@ export default function TearCompanyLanding() {
         <nav className="fixed top-0 w-full z-50 backdrop-blur-xl bg-black/20 border-b border-white/10">
           <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col justify-center items-center">
             <h1 className="text-center text-2xl font-playfair font-light bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent">
-              Yuna & Tear Company
+              Tear Company
             </h1>
+            <p className="text-center text-sm text-indigo-300/70 tracking-wide mt-2">
+              For Yuna!
+            </p>
           </div>
         </nav>
 
