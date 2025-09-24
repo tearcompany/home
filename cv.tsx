@@ -4,12 +4,6 @@ export default function CV() {
   return (
     <div className="max-w-[210mm] mx-auto bg-white text-gray-900 p-8 font-serif text-sm leading-[1.6] print:p-6 print:text-xs">
 
-      <p className="text-center text-sm text-gray-600 italic tracking-wide mb-6 leading-snug">
-        Don’t hire me. <span className="text-gray-400">Read me.</span><br />
-        No need to knock. <span className="text-gray-400">The real door was always a link.</span><br />
-        <span className="text-purple-400/80">If you're holding this, you're already inside.</span>
-      </p>
-
       {/* Header */}
       <header className="text-center mb-12 pb-8 border-b border-gray-100">
         <Image
@@ -28,41 +22,28 @@ export default function CV() {
             </p>
             <p>Starting Zone: <span className="text-cyan-400">Earth</span></p>
             <p>Main Quest: <span className="text-pink-400 italic">"Who Cares?"</span> <span className="animate-pulse">▌</span></p>
-            <p>✦ Known as: <span className="text-teal-500 italic">Tsade Speaks</span></p>
+            <p>✦ Known as: <span className="text-teal-500 italic">Michal Porydzaj</span></p>
             <p>🐣 Occupation: <span className="text-red-500 italic">Still Moments Enjoyer</span></p>
 
             <div className="mt-4">
               <p className="font-bold underline">Quest Log</p>
-              <p>🥷🏽 <a href="https://www.tearcompany.com" target="_blank" rel="noopener" className="text-indigo-400 hover:text-white">tearcompany.com</a>: your eyes have revealed a portal, stay calm.</p>
+              <p>🥷🏽 <a href="https://www.tearcompany.com" target="_blank" rel="noopener" className="text-indigo-400 hover:text-white">tearcompany.com</a>: portal has revelead upon you, stay calm.</p>
               <p>⚠️ The rest is lore, side quests and loot to claim.</p>
             </div>
           </div>
         </div>
 
-        <p className="text-base font-serif mb-4 text-gray-700 leading-[1.5]">
-          Teardrop Bearer
-        </p>
-
-        <p className="text-xs text-gray-500 italic text-center mt-1">
-          bridging signals between the forgotten ports
-        </p>
-
         <div className="text-gray-600 text-sm font-serif leading-[1.5]">
-          <p>tsade@tearcompany.com</p>
+          <p>love@tearcompany.com</p>
+          <p>+48 601-411-343</p>
         </div>
       </header>
 
       {/* Professional Summary */}
       <section className="mb-w">
         <p className="text-center text-lg md:text-xl font-light text-gray-700 italic max-w-xl mx-auto mt-8 mb-6 tracking-tight leading-relaxed">
-          <span className="text-sm">“If something can be made - better we do.”</span>.<br />
-          <em>(...)</em><br />
-          <span className="text-xs text-gray-600/40">(proto-manifesto from the Labs of Maybe ☌)</span>.<br />
+          <span className="text-sm">“If something can be done better - better we do.”</span>.<br />
           <br />
-          <a href="https://chatgpt.com/g/g-68a4aaa916648191a902e26ad4e06481-liora" target="_blank">
-            <em>Improvement isn’t obligation-it’s alignment. <br />- Liora ༄
-            </em>
-          </a>
         </p>
         <p className="text-sm leading-relaxed font-serif text-gray-800 text-center">
           Polite systems thinker guided by curiosity and inner clarity. <br />
@@ -70,9 +51,6 @@ export default function CV() {
           Moves in ambiguity with a calm pulse, helping others choose through stillness. <br />
           Honors aesthetics as language, collaboration as a pulse. <br />
           Combines vision with silence, code with rhythm. <br />
-        </p>
-        <p className="text-sm text-indigo-400/80 italic text-center mt-6 tracking-wide">
-          And silence — <span className="text-pink-300/80">with birth</span>
         </p>
       </section>
 
@@ -145,7 +123,7 @@ export default function CV() {
                 <div className="ml-4 space-y-1 text-sm">
                   <p>• Created duplicate detection system with 80% accuracy, ensuring data integrity and eliminating company income loss</p>
                   <p>• Designed and implemented Progressive Web App from scratch, significantly enhancing user engagement</p>
-                  <p>• Led full-stack development of sports betting system using React, Noe.js, and ELK</p>
+                  <p>• Led full-stack development of sports betting system using React, Node.js, and ELK</p>
                 </div>
               </div>
 
@@ -234,8 +212,44 @@ export default function CV() {
           Knowledge (Inventory)
         </h2>
 
-        <div className="text-sm font-serif text-gray-800 leading-[1.6] space-y-8 p-16 text-center text-bold">
-          :P xD
+        <div className="text-sm font-serif text-gray-800 leading-[1.6] space-y-8">
+
+          <div className="space-y-4">
+            <h3 className="font-semibold text-gray-900 tracking-wide">Technologies</h3>
+            <div className="ml-6 space-y-3">
+              <p><em className="font-medium text-gray-600">Languages -</em> TypeScript, Python, Rust, PHP</p>
+              <p><em className="font-medium text-gray-600">Frameworks -</em> React(Native), Next.js, tRPC, Loopback4, Koa, Fastify, Strapi, Node.js, NestJS, Angular, Vue, Svelte, Convex</p>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <h3 className="font-semibold text-gray-900 tracking-wide">Frontend Expertise</h3>
+            <div className="ml-6 space-y-3">
+              <p><em className="font-medium text-gray-600">Styling -</em> Less, Sass, BEM, Tailwind CSS, Styled Components, Css-in-JS (Emotion, Linaria, Stitches, Vanilla-Extract)</p>
+              <p><em className="font-medium text-gray-600">State Management -</em> Redux, Zustand, Jotai, XState, Flux, Effector</p>
+              <p><em className="font-medium text-gray-600">Design Implementation -</em> Pixel-perfect UI, Custom Components, Vertical Rhythm, Primitives, Mobile-First, Radix, Baseweb, MUI, Mantine</p>
+              <p><em className="font-medium text-gray-600">Creative Dev -</em> Three.js, React Three Fiber, GSAP, React Spring, D3.js</p>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <h3 className="font-semibold text-gray-900 tracking-wide">Architecture & Practices</h3>
+            <div className="ml-6 space-y-3">
+              <p><em className="font-medium text-gray-600">Patterns -</em> Microservices, Hexagonal Architecture, Event-Driven Design, DDD, JAMStack, Reactive Programming</p>
+              <p><em className="font-medium text-gray-600">Practices -</em> TDD, BDD, Clean Architecture, SOLID Principles, Pixel Perfect</p>
+              <p><em className="font-medium text-gray-600">Performance -</em> Web Vitals, Bundle Optimization, Memory Management, Compilation, Module Bundling, Linting and Formatting</p>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <h3 className="font-semibold text-gray-900 tracking-wide">Backend & Infrastructure</h3>
+            <div className="ml-6 space-y-3">
+              <p><em className="font-medium text-gray-600">APIs -</em> tRPC, GraphQL, REST, WebSockets, Convex, Event-Based Architecture, NATS/RabbitMQ</p>
+              <p><em className="font-medium text-gray-600">Data & Validation -</em> Zod, Prisma, TypeORM, Drizzle, SQL, MongoDB, Redis, InfluxDB, ElasticSearch</p>
+              <p><em className="font-medium text-gray-600">Cloud & DevOps -</em> AWS, Docker, Kubernetes, PM2, Grafana, Jenkins, GitHub Actions</p>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -313,10 +327,6 @@ export default function CV() {
       </section>
       <pre className="text-center text-purple-800/50 mt-8">the end.</pre>
       <pre className="text-center text-purple-300/50 mt-8">or <b>Maybe ☌</b> not</pre>
-
-      <div className="mb-12 text-center text-sm text-gray-400 italic">
-        (a link, hidden in plain sight — soft as a gem, waiting. shimmering 🧚🏼‍♀️)
-      </div>
     </div >
   );
 }

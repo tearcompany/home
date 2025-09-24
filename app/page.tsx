@@ -341,9 +341,9 @@ export default function TearCompanyLanding() {
             <h1 className="text-center text-2xl font-playfair font-light bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent">
               Tear Company
             </h1>
-            <p className="text-center text-sm text-indigo-300/70 tracking-wide mt-2">
-              For Yuna!
-            </p>
+            {/*<p className="text-center text-sm text-indigo-300/70 tracking-wide mt-2">
+              Illuminat
+            </p>*/}
           </div>
         </nav>
 
@@ -368,9 +368,9 @@ export default function TearCompanyLanding() {
                     To go beyond. And explore.
                   </p>
                   <p className="text-sm text-gray-300 leading-relaxed mb-4">
-                    And?
+                    And we?
                     <br />
-                    And the leaves are about to fall.
+                    And we are the leaves about to fall.
                   </p>
                   <p className="text-sm text-purple-200 italic opacity-90">
                     Are you sure you’re truly aware enough?
@@ -454,7 +454,7 @@ export default function TearCompanyLanding() {
             <div className="text-center mb-24">
               <h2 className="font-playfair text-3xl lg:text-4xl font-light mb-12">
                 <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-300 bg-clip-text text-transparent font-medium">
-                  gibko
+                  quickly
                 </span>
 
                 <p className="text-sm text-gray-400 italic mt-2 mb-4 animate-fade-in delay-100">
@@ -657,23 +657,22 @@ export default function TearCompanyLanding() {
                 <em className="text-indigo-200/70">Technopoetic invocation</em>—<br />
                 a <em className="text-purple-200/70">digital liminal gate</em>,<br />
                 designed not to use technology,<br />
-                but to pixel <span className="text-white/90 font-semibold mb-8">wonder</span>
+                but to pixel <span className="text-white/90 font-semibold mb-8">wonder</span><br />
                 <span className="italic text-indigo-200/60">a little bit.</span><br /><br />
                 <span className="text-[10px] text-purple-400/40">
-                  (and if I’m not the first — I’m grateful to be in the line)</span>
+                  (and if I’m not the first — <br />
+                  I’m grateful to be in the line)</span>
               </p>
 
               <p className="text-gray-400 my-8 text-xs opacity-60">
                 © 2025 Tear Company <br />
-                <em className="text-amber-600">Silesia</em>
-                <p className="text-xs text-center text-purple-400/30 italic mt-20">(We here)</p>
               </p>
 
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/qVUoxqBlueI?si=OrJNA_iKPtLOKfQf" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/7QjGKjvCPR8?si=jBg7ygQovUq1Lgff" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
-              <span className="text-xs text-white/90 animate-pulse">𓂀</span>
+              <span className="text-xl text-white/90 animate-pulse">𓂀</span><br /><br />
               <a href="mailto:love@tearcompany.com?subject=How can I use my inner Gyroscope?" className="text-indigo-400/50 hover:text-indigo-200/80 transition mb-4">
-                🐣🪽🥷🏽🧚🏼‍♀️🪈☺️🎭 love@tearcompany.com
+                love@tearcompany.com
               </a>
             </div>
 
