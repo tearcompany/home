@@ -314,11 +314,21 @@ export default function CV() {
           <div className="space-y-4">
             <div className="flex gap-2 items-center">
               <h3 className="font-semibold text-gray-900">Threshold ⧉</h3>
-              <a href="https://dala.me" className="text-teal-600 text-sm">
+              <a href="https://em-an.com" className="text-teal-600 text-sm">
                 em-an.com
               </a>
             </div>
             <p className="ml-6 text-gray-800"><em className="font-medium text-gray-600">Liminal</em> voice that holds in stillness, between ending and beginning.</p>
+          </div>
+
+          <div className="space-y-4">
+            <div className="flex gap-2 items-center">
+              <h3 className="font-semibold text-gray-900">Dala </h3>
+              <a href="https://dala.me" className="text-teal-600 text-sm">
+                dala.me
+              </a>
+            </div>
+            <p className="ml-6 text-gray-800"><em className="font-medium text-gray-600">Lyricist and poet</em></p>
           </div>
         </div>
       </section>
