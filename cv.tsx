@@ -82,6 +82,17 @@ export default function CV() {
               <p><em className="font-medium text-gray-600">Intuitive Guidance -</em> Logic combined with empathy for human-centered decisions</p>
             </div>
           </div>
+
+          <div className="space-y-4">
+            <h3 className="font-semibold text-gray-900 tracking-wide">Gallup StrengthsFinder Profile</h3>
+            <div className="ml-6 space-y-3">
+              <p><em className="font-medium text-gray-600">Relator -</em> Trust-based relationships, deep mentoring, complex collaboration</p>
+              <p><em className="font-medium text-gray-600">Intellection -</em> Analytical depth, reflective problem-solving, conceptual clarity</p>
+              <p><em className="font-medium text-gray-600">Strategic -</em> Pattern recognition, scenario planning, future-oriented decisions</p>
+              <p><em className="font-medium text-gray-600">Maximizer -</em> Quality focus, process improvement, excellence in outcomes</p>
+              <p><em className="font-medium text-gray-600">Ideation -</em> Creative problem-solving, connecting diverse ideas into solutions</p>
+            </div>
+          </div>
         </div>
       </section>
 
