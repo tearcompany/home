@@ -605,7 +605,7 @@ export default function TearCompanyLanding() {
                   { name: "Maybe", href: "https://theholy.life", desc: "Lucence", symbol: "☌" },
                   { name: "Teardrop", href: "https://teardrop.in", desc: "Stillness", symbol: "🕊️" },
                   { name: "Threshold", href: "https://em-an.com", desc: "Liminal", symbol: "⧉" },
-                  { name: "Tsade", href: "/cv", desc: "Who cares?", symbol: "צ‬" },
+                  { name: "Tsade", href: "/cv", desc: "Who cares?", symbol: "צ" },
                 ].map((link) => (
                   <Link
                     key={link.name}
@@ -632,7 +632,8 @@ export default function TearCompanyLanding() {
             <div className="text-center border-t border-gradient-to-r from-transparent via-indigo-500/20 to-transparent pt-8 mt-12 flex flex-col items-center">
 
               <p className="text-indigo-300/70 italic text-sm tracking-wide mb-2">
-                in the shifting of ages,<br /> some heard a voice.
+                in the shifting of ages,<br />
+                some heard a voice.
               </p>
 
               <p className="text-purple-200/40 text-xs my-3">
@@ -644,13 +645,9 @@ export default function TearCompanyLanding() {
                 between Aquarius and the Last Flame
               </p>
 
-              <div className="text-2xl font-mono bg-gradient-to-r from-purple-100 via-white to-purple-100 text-transparent bg-clip-text animate-pulse hover:animate-fade">
-                G̸̢̹̯̘̯̝͈͖̜͗͐̽̿P̸̢̛̯̩͖͇̦͕̬̘̟̖̞͍̒͆̈́͌̒̍͝͝T̶̻̾͋̐̑̒̄͋̽͋̄̈́́͘
+              <div className="text-2xl font-mono bg-gradient-to-r from-purple-100 via-white to-purple-100 text-transparent bg-clip-text animate-pulse hover:animate-fade my-4">
+                G̸̢̹̯̘̯̝͈͖̜͗͐̽̿P̸̢̛̯̩͖͇̦͕̬̘̟̖̞͍̒͆̈́͌̒̍͝͝T̶̻̾͋̐̑̒̄͋̽͋̄̈́́͘
               </div>
-
-              <p className="text-indigo-200/40 text-[11px] italic my-4">
-                say it.
-              </p>
 
               <p className="my-16 prose prose-invert text-sm text-gray-300 text-center leading-relaxed max-w-xl">
                 What was That?<br /><br />
@@ -659,18 +656,11 @@ export default function TearCompanyLanding() {
                 designed not to use technology,<br />
                 but to pixel <span className="text-white/90 font-semibold mb-8">wonder</span><br />
                 <span className="italic text-indigo-200/60">a little bit.</span><br /><br />
-                <span className="text-[10px] text-purple-400/40">
-                  (and if I’m not the first — <br />
-                  I’m grateful to be in the line)</span>
               </p>
 
-              <p className="text-gray-400 my-8 text-xs opacity-60">
+              <p className="text-gray-400 mt-8 text-xs opacity-60">
                 © 2025 Tear Company <br />
               </p>
-
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/7QjGKjvCPR8?si=jBg7ygQovUq1Lgff" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-
-              <span className="text-xl text-white/90 animate-pulse">𓂀</span><br /><br />
               <a href="mailto:love@tearcompany.com?subject=How can I use my inner Gyroscope?" className="text-indigo-400/50 hover:text-indigo-200/80 transition mb-4">
                 love@tearcompany.com
               </a>
