@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @layer base {
   .font-inter {
@@ -11,9 +9,9 @@
     font-family: var(--font-playfair), serif;
   }
 
-.font-fira {
-  font-family: var(--font-fira-sans), sans-serif;
-}
+  .font-fira {
+    font-family: var(--font-fira-sans), sans-serif;
+  }
 }
 
 @media print {
