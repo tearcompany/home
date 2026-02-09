@@ -10,6 +10,10 @@
   .font-playfair {
     font-family: var(--font-playfair), serif;
   }
+
+.font-fira {
+  font-family: var(--font-fira-sans), sans-serif;
+}
 }
 
 @media print {

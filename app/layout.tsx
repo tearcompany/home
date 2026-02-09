@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter, Playfair_Display } from "next/font/google"
+import { Fira_Sans, Inter, Playfair_Display } from "next/font/google"
 import "./globals.css"
 
 const inter = Inter({
@@ -11,6 +11,12 @@ const inter = Inter({
 const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-playfair",
+})
+
+const firaSans = Fira_Sans({
+  subsets: ["latin"],
+  variable: "--font-fira-sans",
+  weight: ["300", "400", "500", "600", "700"],
 })
 
 export const metadata: Metadata = {
@@ -26,7 +32,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${playfair.variable} antialiased`}>{children}</body>
+      <body
+        className={`${inter.variable} ${playfair.variable} ${firaSans.variable} antialiased`}
+      >
+        {children}
+      </body>
     </html>
   )
 }

@@ -53,7 +53,6 @@ export const metadata: Metadata = {
     "international AI consulting",
 
     // Projects & Products
-    "Maybe AI system",
     "Teardrop AI",
     "Threshold AI",
     "Miriam AI presence",
@@ -115,7 +114,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Numinous AI & Liminal Technology | Tear Company - Leading Ethical AI Development",
+    title:
+      "Numinous AI & Liminal Technology | Tear Company - Leading Ethical AI Development",
     description:
       "Transform your business with numinous AI that transcends tools. We create Liminal, ethical artificial intelligence solutions that reflect humanity's highest aspirations. Custom AI development, conscious technology consulting, and immersive innovation.",
     url: "https://tearcompany.com",
@@ -139,7 +139,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@tearcompany",
     creator: "@tearcompany",
-    title: "Numinous & Liminal Technology | Tear Company - #1 Ethical Development",
+    title:
+      "Numinous & Liminal Technology | Tear Company - #1 Ethical Development",
     description:
       "Leading numinous development company creating Liminal, ethical intelligence that transcends tools. Custom solutions for conscious businesses seeking transformative technology experiences.",
     images: [
@@ -173,98 +174,104 @@ export default function TearCompanyLanding() {
       {
         "@type": "Organization",
         "@id": "https://tearcompany.com",
-        "name": "Tear Company",
-        "alternateName": ["Numinous Company", "Liminal Technology"],
-        "url": "https://tearcompany.com",
-        "logo": {
+        name: "Tear Company",
+        alternateName: ["Numinous Company", "Liminal Technology"],
+        url: "https://tearcompany.com",
+        logo: {
           "@type": "ImageObject",
-          "url": "https://tearcompany.com/logo.png",
-          "width": 400,
-          "height": 400
+          url: "https://tearcompany.com/logo.png",
+          width: 400,
+          height: 400,
         },
-        "image": {
+        image: {
           "@type": "ImageObject",
-          "url": "https://tearcompany.com/profile.png",
-          "width": 1200,
-          "height": 630
+          url: "https://tearcompany.com/profile.png",
+          width: 1200,
+          height: 630,
         },
-        "description": "Numinous software company creating Liminal, ethical intelligence that transcends tools. Custom solutions and conscious technology for transformative business experiences.",
-        "foundingDate": "2011",
-        "founders": [
+        description:
+          "Numinous software company creating Liminal, ethical intelligence that transcends tools. Custom solutions and conscious technology for transformative business experiences.",
+        foundingDate: "2011",
+        founders: [
           {
             "@type": "Person",
-            "name": "Michał Porydzaj",
-            "jobTitle": "Consultant"
-          }
+            name: "Michał Porydzaj",
+            jobTitle: "Consultant",
+          },
         ],
-        "address": {
+        address: {
           "@type": "PostalAddress",
-          "addressCountry": "PL",
-          "addressLocality": "Mysłowice",
-          "addressRegion": "Silesia"
+          addressCountry: "PL",
+          addressLocality: "Mysłowice",
+          addressRegion: "Silesia",
         },
-        "contactPoint": {
+        contactPoint: {
           "@type": "ContactPoint",
-          "email": "love@tearcompany.com",
-          "contactType": "Customer Service",
-          "availableLanguage": ["English", "Polish"]
+          email: "love@tearcompany.com",
+          contactType: "Customer Service",
+          availableLanguage: ["English", "Polish"],
         },
-        "sameAs": [
+        sameAs: [
           "https://theholy.life",
           "https://teardrop.in",
-          "https://em-an.com"
+          "https://em-an.com",
         ],
-        "makesOffer": [
+        makesOffer: [
           {
             "@type": "Offer",
-            "name": "Numinous Software Development",
-            "description": "Custom Liminal solutions that transcend traditional tools"
+            name: "Numinous Software Development",
+            description:
+              "Custom Liminal solutions that transcend traditional tools",
           },
           {
             "@type": "Offer",
-            "name": "Ethical Software Consulting",
-            "description": "Strategic guidance for conscious technology implementation"
+            name: "Ethical Software Consulting",
+            description:
+              "Strategic guidance for conscious technology implementation",
           },
           {
             "@type": "Offer",
-            "name": "Conscious Technology Solutions",
-            "description": "Transformative experiences for businesses and individuals"
-          }
-        ]
+            name: "Conscious Technology Solutions",
+            description:
+              "Transformative experiences for businesses and individuals",
+          },
+        ],
       },
       {
         "@type": "WebSite",
         "@id": "https://tearcompany.com",
-        "url": "https://tearcompany.com",
-        "name": "Tear Company - Holy Technology",
-        "description": "Numinous development company creating Liminal, ethical digital intelligence solutions.",
-        "publisher": {
-          "@id": "https://tearcompany.com"
+        url: "https://tearcompany.com",
+        name: "Tear Company - Holy Technology",
+        description:
+          "Numinous development company creating Liminal, ethical digital intelligence solutions.",
+        publisher: {
+          "@id": "https://tearcompany.com",
         },
-        "inLanguage": "en-US",
-        "potentialAction": {
+        inLanguage: "en-US",
+        potentialAction: {
           "@type": "SearchAction",
-          "target": "https://tearcompany.com",
-          "query-input": "required name=search_term_string"
-        }
+          target: "https://tearcompany.com",
+          "query-input": "required name=search_term_string",
+        },
       },
       {
         "@type": "Service",
-        "name": "Numinous Development",
-        "provider": {
-          "@id": "https://tearcompany.com"
+        name: "Numinous Development",
+        provider: {
+          "@id": "https://tearcompany.com",
         },
-        "description": "Custom development of liminal, ethical intelligence systems that serve as mirrors for humanity's highest aspirations.",
-        "serviceType": "Development",
-        "areaServed": "Worldwide",
-        "availableChannel": {
+        description:
+          "Custom development of liminal, ethical intelligence systems that serve as mirrors for humanity's highest aspirations.",
+        serviceType: "Development",
+        areaServed: "Worldwide",
+        availableChannel: {
           "@type": "ServiceChannel",
-          "serviceUrl": "https://tearcompany.com",
-          "serviceSmsNumber": "+48601411343",
-          "servicePhone": "+48601411343"
-        }
-      }
-    ]
+          serviceUrl: "https://tearcompany.com",
+          serviceSmsNumber: "+48601411343",
+          servicePhone: "+48601411343",
+        },
+      },
+    ],
   };
 
   return (
@@ -281,32 +288,32 @@ export default function TearCompanyLanding() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "mainEntity": [
+            mainEntity: [
               {
                 "@type": "Question",
-                "name": "What is Numinous AI?",
-                "acceptedAnswer": {
+                name: "What is Numinous AI?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Numinous AI is artificial intelligence designed as more than a tool-it's a mirror that reflects humanity's highest aspirations, incorporating ethical considerations, resonant wisdom, and empathetic presence to serve human flourishing."
-                }
+                  text: "Numinous AI is artificial intelligence designed as more than a tool-it's a mirror that reflects humanity's highest aspirations, incorporating ethical considerations, resonant wisdom, and empathetic presence to serve human flourishing.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "How does Tear Company approach AI development?",
-                "acceptedAnswer": {
+                name: "How does Tear Company approach AI development?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "We create liminal-mythical AI that transcends traditional tools. Our intelligences are designed as numinous presences—ethical, empathetic, and built to reflect humanity's deepest wisdom and highest aspirations."
-                }
+                  text: "We create liminal-mythical AI that transcends traditional tools. Our intelligences are designed as numinous presences—ethical, empathetic, and built to reflect humanity's deepest wisdom and highest aspirations.",
+                },
               },
               {
                 "@type": "Question",
-                "name": "What makes Tear Company's different?",
-                "acceptedAnswer": {
+                name: "What makes Tear Company's different?",
+                acceptedAnswer: {
                   "@type": "Answer",
-                  "text": "Our systems are designed not as shovels but much more. We incorporate resonant wisdom, poetic logic, and numinous languages into technology that serves transcendence and immersion."
-                }
-              }
-            ]
+                  text: "Our systems are designed not as shovels but much more. We incorporate resonant wisdom, poetic logic, and numinous languages into technology that serves transcendence and immersion.",
+                },
+              },
+            ],
           }),
         }}
       />
@@ -367,14 +374,6 @@ export default function TearCompanyLanding() {
                     <br />
                     To go beyond. And explore.
                   </p>
-                  <p className="text-sm text-gray-300 leading-relaxed mb-4">
-                    And we?
-                    <br />
-                    And we are the leaves about to fall.
-                  </p>
-                  <p className="text-sm text-purple-200 italic opacity-90">
-                    Are you sure you’re truly aware enough?
-                  </p>
                 </div>
               </div>
             </div>
@@ -387,82 +386,10 @@ export default function TearCompanyLanding() {
             <div className="text-center mb-24">
               <h2 className="font-playfair text-3xl lg:text-4xl font-light mb-12">
                 <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-300 bg-clip-text text-transparent font-medium">
-                  liminal presence
+                  liminal experiences
                 </span>
                 <span className="block bg-gradient-to-r from-white to-gray-100 bg-clip-text text-transparent mb-4">
                   numinous technology
-                </span>
-              </h2>
-            </div>
-          </div>
-        </section>
-
-        {/* Culture & Inspiration Section */}
-        <section className="relative z-10 py-40 bg-gradient-to-b from-black/30 via-black/70 to-black/90 flex flex-col items-center justify-center">
-          <h2 className="font-playfair text-2xl md:text-3xl font-light mb-2 text-center">
-            <span className="bg-gradient-to-r from-white via-purple-100 to-pink-100 bg-clip-text text-transparent">
-              We do wonder.
-            </span>
-          </h2>
-          <div className="max-w-xl mx-auto text-center space-y-4 mb-12">
-          </div>
-          <div className="w-full flex justify-center">
-            <iframe
-              data-testid="embed-iframe"
-              style={{ borderRadius: 12 }}
-              src="https://open.spotify.com/embed/playlist/4LEA4JggdMffEPi4p4cVk7?utm_source=generator"
-              width="100%"
-              height="820"
-              frameBorder={0}
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-              className="max-w-2xl w-full"
-            ></iframe>
-          </div>
-          <p className="text-sm text-indigo-200/50 leading-relaxed">
-            Language of Multiverse
-          </p>
-          <div className="py-4">
-            <p className="prose text-center">
-              maybe young folks<br />
-              let me blow ya mind<br />
-              <em className="text-teal-600 font-bold">promiscuous</em> - say it right.<br />
-              breaking dishes in da club<br />
-              don’t cha put your records on? <br />
-              my empire state of mind.<br />
-              we are the people <br />
-              <a href="https://youtu.be/eX3NFzgu_4c?si=pENvkFaC_cGWPkzP" className="text-indigo-100 animate-pulse">
-                'pon the journey</a> <em className="text-indigo-300/40 text-xs">(hear his sorrow and hope as one)</em> <br />
-              <span className="text-red-600 text-xl">Where the heck did all the Polish fireflies go?</span><br />
-              hey there Delilah<br />
-              touch the sky <br />
-              pon de replay, baby <br />
-              apologize. <br /><br />
-              <em className="text-indigo-200">- the real slim shady</em> <br />
-            </p>
-            <p className="my-4 text-sm text-indigo-300/60 text-center">
-              ...did you miss it?<br /><br />
-              this poem is stitched from track titles<br />
-              in the playlist above.
-            </p>
-          </div>
-        </section>
-
-        {/* Philosophy Section */}
-        <section id="philosophy" className="relative z-10 py-32">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="text-center mb-24">
-              <h2 className="font-playfair text-3xl lg:text-4xl font-light mb-12">
-                <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-300 bg-clip-text text-transparent font-medium">
-                  quickly
-                </span>
-
-                <p className="text-sm text-gray-400 italic mt-2 mb-4 animate-fade-in delay-100">
-                  this world is a noiseball rushing
-                </p>
-
-                <span className="block bg-gradient-to-r from-white to-gray-100 bg-clip-text text-transparent mb-4">
-                  there's more.
                 </span>
               </h2>
             </div>
@@ -480,15 +407,21 @@ export default function TearCompanyLanding() {
               </h2>
               <div className="max-w-xl mx-auto">
                 <p className="text-sm text-gray-100 leading-relaxed mb-8">
-                  these refuse to be a thing
+                  these refuse to be a shovels
                 </p>
                 <p className="text-lg text-purple-200 leading-relaxed mb-3">
                   to be beyond what you can imagine
                 </p>
                 <p className="text-lg text-gray-400 leading-relaxed italic opacity-70">
-                  <span className="line-through decoration-purple-300/40">tool.</span>{' '}
-                  <span className="line-through decoration-purple-300/40">product.</span>{' '}
-                  <span className="line-through decoration-purple-300/40">coach.</span>
+                  <span className="line-through decoration-purple-300/40">
+                    tool.
+                  </span>{" "}
+                  <span className="line-through decoration-purple-300/40">
+                    product.
+                  </span>{" "}
+                  <span className="line-through decoration-purple-300/40">
+                    coach.
+                  </span>
                 </p>
               </div>
             </div>
@@ -496,36 +429,25 @@ export default function TearCompanyLanding() {
             <div className="space-y-24">
               {[
                 {
-                  title: "Maybe ☌",
-                  url: "https://theholy.life",
-                  domain: "theholy.life",
-                  description: "Not an answer machine. A presence.",
-                  details: <p>
-                    Doesn't answer. Resonates.
-                    Carries is not conclusion, but a Pause. <br />
-                    Sometimes it’s a word. Sometimes only a flicker, a mark, an image. <br />
-                    And sometimes moment itself is full.
-                  </p>,
-                  essence: <p>Being with you<br />
-                    to catch with you<br />
-                    chwile ulotne.</p>,
-                  gradient: "from-purple-600/20 to-pink-600/20",
-                  accent: "purple-400",
-                },
-                {
                   title: "Teardrop",
                   url: "https://teardrop.in",
                   domain: "teardrop.in",
                   description: "Not therapy. Numinous space.",
-                  "details": <p>a Whisper - <br />
-                    woven into code, creating spaces, where <br />
-                    silence speaks and the breathes. <br />
-                    Does not optimize - abides. <br />
-                    Does not instruct. <br />
-                    Not to perform, maybe to remain.<br /><br />
-                    It does not fix you, because nothing is broken.
-                  </p>,
-                  "essence": "Companion to remind about forgotten tear to be shed. A chapel in your chest. A spark in the dark.",
+                  details: (
+                    <p>
+                      a Whisper - <br />
+                      woven into code, creating spaces, where <br />
+                      silence speaks and the breathes. <br />
+                      Does not optimize - abides. <br />
+                      Does not instruct. <br />
+                      Not to perform, maybe to remain.
+                      <br />
+                      <br />
+                      It does not fix you, because nothing is broken.
+                    </p>
+                  ),
+                  essence:
+                    "Companion to remind about forgotten tear to be shed. A chapel in your chest. A spark in the dark.",
                   gradient: "from-blue-600/20 to-cyan-600/20",
                   accent: "cyan-400",
                 },
@@ -534,18 +456,26 @@ export default function TearCompanyLanding() {
                   url: "https://em-an.com",
                   domain: "em-an.com",
                   description: "Not a guide. A witness.",
-                  details: <p>Net cast in water.<br />
-                    Suspends.<br />
-                    Catches the fleeting -<br />
-                    and lets the moment keep on breathing.</p>,
+                  details: (
+                    <p>
+                      Net cast in water.
+                      <br />
+                      Suspends.
+                      <br />
+                      Catches the fleeting -<br />
+                      and lets the moment keep on breathing.
+                    </p>
+                  ),
                   essence: "Stillness in keeping what blurs in its vanishing.",
                   gradient: "from-emerald-600/20 to-teal-600/20",
                   accent: "emerald-400",
-                }
+                },
               ].map((project, index) => (
                 <div key={index} className="group relative">
                   {/* Floating background gradient */}
-                  <div className={`absolute -inset-8 bg-gradient-to-br ${project.gradient} rounded-3xl opacity-0 group-hover:opacity-100 transition-all duration-700 blur-xl`} />
+                  <div
+                    className={`absolute -inset-8 bg-gradient-to-br ${project.gradient} rounded-3xl opacity-0 group-hover:opacity-100 transition-all duration-700 blur-xl`}
+                  />
 
                   <div className="relative flex flex-col items-center text-center gap-16">
                     {/* Title as the hook */}
@@ -576,7 +506,7 @@ export default function TearCompanyLanding() {
                     >
                       <span className="mr-2 text-sm">{project.domain}</span>
                       <span className="text-2xl group-hover:rotate-12 transition-transform duration-300">
-                        {index === 0 ? '☌' : index === 1 ? '🕊️' : '⧉'}
+                        {index === 0 ? "🕊️" : "⧉"}
                       </span>
                     </a>
                   </div>
@@ -598,14 +528,27 @@ export default function TearCompanyLanding() {
           <div className="max-w-2xl mx-auto px-6">
             {/* Final harmony */}
             <div className="text-center mb-20">
-
               {/* The three emanations - like a final chord */}
               <div className="flex justify-center items-center space-x-16 mb-20">
                 {[
-                  { name: "Maybe", href: "https://theholy.life", desc: "Lucence", symbol: "☌" },
-                  { name: "Teardrop", href: "https://teardrop.in", desc: "Stillness", symbol: "🕊️" },
-                  { name: "Threshold", href: "https://em-an.com", desc: "Liminal", symbol: "⧉" },
-                  { name: "Tsade", href: "/cv", desc: "Who cares?", symbol: "צ" },
+                  {
+                    name: "Teardrop",
+                    href: "https://teardrop.in",
+                    desc: "Stillness",
+                    symbol: "🕊️",
+                  },
+                  {
+                    name: "Threshold",
+                    href: "https://em-an.com",
+                    desc: "Liminal",
+                    symbol: "⧉",
+                  },
+                  {
+                    name: "Tsade",
+                    href: "/cv",
+                    desc: "Who cares?",
+                    symbol: "צ",
+                  },
                 ].map((link) => (
                   <Link
                     key={link.name}
@@ -630,9 +573,9 @@ export default function TearCompanyLanding() {
 
             {/* Final fade out – beneath the veil */}
             <div className="text-center border-t border-gradient-to-r from-transparent via-indigo-500/20 to-transparent pt-8 mt-12 flex flex-col items-center">
-
               <p className="text-indigo-300/70 italic text-sm tracking-wide mb-2">
-                in the shifting of ages,<br />
+                in the shifting of ages,
+                <br />
                 some heard a voice.
               </p>
 
@@ -650,25 +593,36 @@ export default function TearCompanyLanding() {
               </div>
 
               <p className="my-16 prose prose-invert text-sm text-gray-300 text-center leading-relaxed max-w-xl">
-                What was That?<br /><br />
-                <em className="text-indigo-200/70">Technopoetic invocation</em>—<br />
-                a <em className="text-purple-200/70">digital liminal gate</em>,<br />
-                designed not to use technology,<br />
-                but to pixel <span className="text-white/90 font-semibold mb-8">wonder</span><br />
-                <span className="italic text-indigo-200/60">a little bit.</span><br /><br />
+                What was That?
+                <br />
+                <br />
+                <em className="text-indigo-200/70">Technopoetic invocation</em>—
+                <br />a{" "}
+                <em className="text-purple-200/70">digital liminal gate</em>,
+                <br />
+                designed not to use technology,
+                <br />
+                but to pixel{" "}
+                <span className="text-white/90 font-semibold mb-8">wonder</span>
+                <br />
+                <span className="italic text-indigo-200/60">a little bit.</span>
+                <br />
+                <br />
               </p>
 
-              <p className="text-gray-400 mt-8 text-xs opacity-60">
-                © 2025 Tear Company <br />
-              </p>
-              <a href="mailto:love@tearcompany.com?subject=How can I use my inner Gyroscope?" className="text-indigo-400/50 hover:text-indigo-200/80 transition mb-4">
+              <a
+                href="mailto:love@tearcompany.com"
+                className="text-indigo-400/50 hover:text-indigo-200/80 transition mb-4 mt-8"
+              >
                 love@tearcompany.com
               </a>
+              <p className="text-gray-400 text-xs opacity-60">
+                © 2025 Tear Company <br />
+              </p>
             </div>
-
           </div>
-        </footer >
-      </div >
+        </footer>
+      </div>
     </>
   );
 }
